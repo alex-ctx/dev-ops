@@ -10,8 +10,8 @@ app.get('/', (_req, res) => {
   res.send('Hello TypeScript + Express!');
 });
 
-app.get("/alexandre", (req, res) => {
-    res.send("Hello Alexandre");
+app.get("/cantinaux", (req, res) => {
+    res.send("Route de Alexandre Cantinaux");
 });
 
 app.listen(port, () => {
